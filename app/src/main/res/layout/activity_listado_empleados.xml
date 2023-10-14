@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center"
+android:orientation="vertical">
+
+<TextView
+    android:id="@+id/userCodigoEmpleado"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Código Empleado"
+    android:textColor="#FFEB3B"
+    android:textSize="24sp"
+    android:textStyle="bold|italic" />
+
+<TextView
+    android:id="@+id/userNombre"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Nombre"
+    android:textColor="#8BC34A"
+    android:textSize="24sp"
+    android:textStyle="bold|italic" />
+
+<TextView
+    android:id="@+id/userNumero"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Número"
+    android:textColor="#F44336"
+    android:textSize="24sp"
+    android:textStyle="bold|italic" />
+
+<TextView
+    android:id="@+id/userDepartamento"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Departamento"
+    android:textColor="#9C27B0"
+    android:textSize="24sp"
+    android:textStyle="bold|italic" />
+
+<TextView
+    android:id="@+id/userCorreo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Correo"
+    android:textColor="#E6E5E5"
+    android:textSize="24sp"
+    android:textStyle="bold|italic" />
+
+<TextView
+    android:id="@+id/userDireccion"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Dirección"
+    android:textColor="#FF5722"
+    android:textSize="24sp"
+    android:textStyle="bold|italic" />
+
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="16dp" />
+
+</LinearLayout>
